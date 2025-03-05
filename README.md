@@ -1,6 +1,6 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Daniel J. Lomis, Computer Engineering: Chip-Scale Integration (May 2026)
+dlomis1999@vt.edu
 
 ## Mentor
 MENTOR NAME HERE
@@ -10,11 +10,11 @@ IN PROGRESS
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+This project will demonstrate to the end-user how SRAM is used to store data within a computer, how changing BITs will have an effect on the output of the visualized character. (The development of a PAL will be likely be needed to output ASCII-based character map, possible future implementation), but for now will used 
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+It provides insight to how character generator ROMs work, which were quite common in the days of early home computing. This will lead to a further understanding of ASCII based decoding. Storage of certain bits will allow the character rom to display individual characters on an LED Matrix, which will allow the viewer to write a message on screen letter by letter. A Binary Counter will be used to scroll through memory addresses, and a buffer will be used to display the current data to write to memory, as well as entry of a specific memory address.
 
 ## Tasks
 
@@ -34,7 +34,10 @@ Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu vel
 
 ## BOM + Component Cost
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+VINTAGE Fairchild 3257ADC Character Generator ROM - $16.37
+8X8 LED MATRIX - $10.86
+VINTAGE AMD AM9101BPC SRAM Modules 256 x 4 BITS, (two used in series, two in parallel, to increase to 512 X 8 BITS) 512K RAM - $23.97
+
 
 ## Timeline
 
