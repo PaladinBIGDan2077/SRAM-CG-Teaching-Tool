@@ -7,9 +7,10 @@
 	(title_block
 		(title "8-Bit D-type Flip-Flop LED Demo")
 		(date "2025-09-20")
-		(rev "1.0")
+		(rev "1.1")
 		(company "The Lomis Company of Virginia")
 		(comment 1 "Practice PCB Development for Memory Teaching Tool")
+		(comment 2 "Version 1.1 : 11/19/2025")
 	)
 	(lib_symbols
 		(symbol "74xx:74AHC273"
@@ -3140,6 +3141,12 @@
 		(uuid "1126e2f4-8287-4c54-bd97-486c4d71ceb0")
 	)
 	(junction
+		(at 81.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b86bd3f-e049-45a9-b49c-fa5793b40da9")
+	)
+	(junction
 		(at 93.98 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3186,6 +3193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f91e77-19b7-435c-910a-6669ae04b999")
+	)
+	(junction
+		(at 64.77 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684583c2-137d-4aa2-99d7-638de939a721")
 	)
 	(junction
 		(at 104.14 83.82)
@@ -3911,6 +3924,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 101.6) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bee01d0-013d-4193-8bda-9b215ceadd43")
+	)
+	(wire
+		(pts
 			(xy 149.86 130.81) (xy 149.86 149.86)
 		)
 		(stroke
@@ -4321,6 +4344,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 101.6) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3643af-5d8d-42cd-b032-f0315cc773a7")
+	)
+	(wire
+		(pts
 			(xy 72.39 86.36) (xy 64.77 86.36)
 		)
 		(stroke
@@ -4361,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 30.48) (xy 30.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37e3bf0-47fb-47f2-97ca-35dfc46b0a49")
+	)
+	(wire
+		(pts
 			(xy 87.63 96.52) (xy 91.44 96.52)
 		)
 		(stroke
@@ -4378,6 +4421,16 @@
 			(type default)
 		)
 		(uuid "c59091ad-b3e7-4a95-bb00-ff342a772a52")
+	)
+	(wire
+		(pts
+			(xy 22.86 25.4) (xy 22.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60d080f-1851-4894-b04c-658697487ec9")
 	)
 	(wire
 		(pts
@@ -4431,16 +4484,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 81.28 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c61c04-1739-4e15-838c-5624300df5e3")
-	)
-	(wire
-		(pts
 			(xy 180.34 101.6) (xy 184.15 101.6)
 		)
 		(stroke
@@ -4478,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "d747ceea-5664-4d7b-947e-893820bc858e")
+	)
+	(wire
+		(pts
+			(xy 81.28 132.08) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d756d892-f4f2-4197-bc0e-02aed73efded")
 	)
 	(wire
 		(pts
@@ -4608,6 +4661,16 @@
 			(type default)
 		)
 		(uuid "fd3eca7f-c27f-466e-87a4-25d5648592b5")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7cc736-3009-4fe6-8359-ca53cb7910d4")
 	)
 	(global_label "+5V"
 		(shape output)
@@ -5147,6 +5210,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f53f119-5d56-47f2-a26f-d88cc7552006")
+		(property "Reference" "#PWR09"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4590c5e-a71c-451f-813f-21889a7f43b4")
+		)
+		(instances
+			(project "Practice"
+				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 176.53 93.98 180)
 		(unit 1)
@@ -5290,7 +5418,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 81.28 109.22 90)
+		(at 81.28 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5299,7 +5427,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a63c266-9bd6-4920-ba20-3e83630bd254")
 		(property "Reference" "SW2"
-			(at 85.09 107.9499 90)
+			(at 85.09 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5436,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 85.09 110.4899 90)
+			(at 85.09 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5445,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 81.28 109.22 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 109.22 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5463,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 81.28 109.22 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,16 +5488,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 101.6 0)
+		(at 64.77 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4629a027-a362-4276-9688-206619d58570")
 		(property "Reference" "#PWR02"
-			(at 64.77 107.95 0)
+			(at 64.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 106.68 0)
+			(at 64.77 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 101.6 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 101.6 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 101.6 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,6 +5546,76 @@
 			(project ""
 				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fae1d72-d8c2-4ea6-af73-027ffe57ca12")
+		(property "Reference" "R11"
+			(at 83.82 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 83.82 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 79.502 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79f2c5d6-1583-4c8b-a2b0-647307963b87")
+		)
+		(pin "1"
+			(uuid "5ca3b0b9-531d-4002-8c0e-d4eb7e1c735e")
+		)
+		(instances
+			(project ""
+				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5488,6 +5685,140 @@
 			(project "Practice"
 				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 26.67 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57841788-3ef4-45f4-8079-f2fe1aeb30bb")
+		(property "Reference" "C3"
+			(at 26.67 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 26.67 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+			(at 30.48 29.5148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da266502-2c1d-4ead-b169-35250e907b25")
+		)
+		(pin "1"
+			(uuid "a0c38822-adde-47a9-833f-bb1ee38d0301")
+		)
+		(instances
+			(project ""
+				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c0cacf5-a305-40ae-bb2f-d584757f9905")
+		(property "Reference" "#PWR08"
+			(at 22.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8d9ea6b-e540-4790-b140-cfb40c93075d")
+		)
+		(instances
+			(project "Practice"
+				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6816,6 +7147,73 @@
 			(project ""
 				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6768000-db6e-4f4f-b9d0-86e8a62bb4a8")
+		(property "Reference" "R10"
+			(at 77.47 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 77.47 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "329f9109-dce3-45b3-ab02-7011ce923c1c")
+		)
+		(pin "1"
+			(uuid "c0a612e3-db3c-473a-b92a-c4d258c947a9")
+		)
+		(instances
+			(project ""
+				(path "/79524ba9-8fbc-4a7a-84c1-f926951723c5"
+					(reference "R10")
 					(unit 1)
 				)
 			)
