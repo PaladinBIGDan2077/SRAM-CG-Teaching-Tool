@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "python.languageServer": "Pylance",
+        "MicroPython.executeButton": [
+            {
+                "text": "▶",
+                "tooltip": "Run",
+                "alignment": "left",
+                "command": "extension.executeFile",
+                "priority": 3.5
+            }
+        ],
+        "MicroPython.syncButton": [
+            {
+                "text": "$(sync)",
+                "tooltip": "sync",
+                "alignment": "left",
+                "command": "extension.execute",
+                "priority": 4
+            }
+        ]
+    }
+}

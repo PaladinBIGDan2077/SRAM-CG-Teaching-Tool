@@ -1,0 +1,28 @@
+Completed:
+
+Raster for 8x8 LED Matrix (1/29/2026)
+Basic TTL Understanding (12/03/2025)
+Pull ups, Pull Downs, proper grounding, proper active high and active low connections (1/29/2026)
+
+
+Still Need To Do:
+
+Make the Counter reset after the blanking interval passes by, which would be two pulses after the 5th row of the Letter (the underscores pictured here)...
+X---X__
+-X-X-__
+--X--__
+-X-X-__
+X---X__
+-----__
+
+Counter only seems to count up every other rising edge, look into this.
+Find a better datasheet for the ADC3257
+Find a cooling solution for the CG
+
+
+
+
+PCB Practice 8-Bit Memory Concept (This Weekend, 1.31.2026)
+-Update the Schematic for use at one of the chinese PCB fabs
+-Make sure the parts list is ready
+-ADD THE APPLE IIE RIFA CAP TO THE LIST
